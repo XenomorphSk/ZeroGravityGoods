@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroGravityGoods - Prepare-se para Decolar!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000428, #004e92);
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #container {
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background: #00aaff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #007acc;
+        }
+        .warning {
+            color: #ff4d4d;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>ZeroGravityGoods</h1>
+        <p><em>Seja bem-vindo ao lado *fora da gravidade* da vida!</em></p>
+        <p class="warning">Este site é para maiores de 18 anos. 🚀 Não diga que não foi avisado.</p>
+        <p>Se você é menor de idade, volte agora. (Sério, a mamãe vai brigar!)</p>
+        <button onclick="proceed()">Sou maior de idade e quero explorar!</button>
+    </div>
+
+    <script>
+        function proceed() {
+            window.location.href = "menu.html"; // Substitua por sua página de menu
+        }
+    </script>
+</body>
+</html>
